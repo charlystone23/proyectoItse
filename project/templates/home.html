@@ -1,0 +1,16 @@
+{%  extends './layout.html' %}
+
+{% block title%}Home{% endblock %}
+
+{% block customcss %}
+<div>
+    <h2>Welcome, {{username}}
+        <a href="/logout">Logout</a>
+    </h2>
+</div>
+{% endblock %}
+{% block body %}
+{{msg}}
+
+  
+{% endblock %}
